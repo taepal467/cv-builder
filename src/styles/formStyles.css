@@ -1,0 +1,70 @@
+/* FORM INPUTS STYLING */
+.label--text {
+    color: #5c5959;
+    font-size: 12.5px;
+}
+
+legend {
+    color:  #5c5959;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+fieldset {
+    border: solid 5px #D3D3D3;
+    margin: 10px;
+    padding: 15px;
+}
+
+input {
+    color: #5c5959;
+    width: 100%;
+    padding: 10px 0;
+    height: 25px;
+    margin-top: 5px;
+    text-indent: 10px;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    border: solid 1.5px #D3D3D3;
+    -webkit-transition: 1s; /* Safari */
+    transition: 1s;
+  }
+  input[type=text]:hover{
+    box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+  }
+  input[type=text]:focus {
+    box-shadow: 0 0 5pt 2pt #D3D3D3;
+    outline-width: 0px;
+  }
+
+  input[type=date] {
+    color: #5c5959;
+  }
+
+  input[type=date]:hover{
+    box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+  }
+  input[type=date]:focus {
+    box-shadow: 0 0 5pt 2pt #D3D3D3;
+    outline-width: 0px;
+  }
+
+  textarea {
+    color: #5c5959;
+    width: 100%;
+    padding: 10px 0;
+    height: 25px;
+    margin-top: 5px;
+    text-indent: 10px;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    border: solid 1.5px #D3D3D3;
+    -webkit-transition: 1s; /* Safari */
+    transition: 1s;
+    resize: vertical;
+  }
+
+  textarea:focus {
+    box-shadow: 0 0 5pt 2pt #D3D3D3;
+    outline-width: 0px;
+  }
